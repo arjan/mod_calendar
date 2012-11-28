@@ -16,7 +16,7 @@
 %% See the License for the specific language governing permissions and
 %% limitations under the License.
 
--module(resource_calendar).
+-module(controller_calendar).
 -author("Marc Worrell <marc@worrell.nl>").
 
 -export([
@@ -25,7 +25,7 @@
 	moved_temporarily/2
 ]).
 
--include_lib("resource_html.hrl").
+-include_lib("html_controller.hrl").
 
 resource_exists(ReqData, Context) ->
 	Context1 = ?WM_REQ(ReqData, Context),

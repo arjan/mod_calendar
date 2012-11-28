@@ -191,13 +191,6 @@ is_wholeday(_) ->
     false.
 
 
-max(A,B) when A > B -> A;
-max(_,B) -> B.
-
-min(A,B) when A > B -> B;
-min(A,_) -> A.
-
-
 %% @doc Unit tests for this module.
 test() ->
 	%% Split an event in three different days.

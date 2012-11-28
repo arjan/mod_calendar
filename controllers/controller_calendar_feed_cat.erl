@@ -18,7 +18,7 @@
 %% See the License for the specific language governing permissions and
 %% limitations under the License.
 
--module(resource_calendar_feed_cat).
+-module(controller_calendar_feed_cat).
 -author("Marc Worrell <marc@worrell.nl>").
 
 -export([
@@ -33,7 +33,7 @@
 	provide_content/2
 ]).
 
--include_lib("webmachine_resource.hrl").
+-include_lib("webmachine_controller.hrl").
 -include_lib("include/zotonic.hrl").
 
 %% Let cached versions expire in an hour.

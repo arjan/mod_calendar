@@ -1,8 +1,8 @@
 [
-	{calendar, ["calendar"], resource_calendar, []},
-	{calendar, ["calendar", "week"], resource_calendar, [{period, week}]},
-	{calendar, ["calendar", "week", date], resource_calendar, [{period, week}]},
-	{calendar_month, ["calendar", "month"], resource_calendar, [{period, month}]},
-	{calendar_month, ["calendar", "month", date], resource_calendar, [{period, month}]},
-    {icalendar_feed, ["icalendar", cat], resource_calendar_feed_cat, [] }
+	{calendar, ["calendar"], controller_calendar, []},
+	{calendar, ["calendar", "week"], controller_calendar, [{period, week}]},
+	{calendar, ["calendar", "week", date], controller_calendar, [{period, week}]},
+	{calendar_month, ["calendar", "month"], controller_calendar, [{period, month}]},
+	{calendar_month, ["calendar", "month", date], controller_calendar, [{period, month}]},
+    {icalendar_feed, ["icalendar", cat], controller_calendar_feed_cat, [] }
 ].
