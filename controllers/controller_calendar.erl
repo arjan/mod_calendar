@@ -25,7 +25,7 @@
 	moved_temporarily/2
 ]).
 
--include_lib("html_controller.hrl").
+-include_lib("controller_html_helper.hrl").
 
 resource_exists(ReqData, Context) ->
 	Context1 = ?WM_REQ(ReqData, Context),
